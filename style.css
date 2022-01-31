@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+}
+
+h1{
+    color: blue rgb(38,0,255);
+    background-color: cornflowerblue;
+}
+
+#show_sketch{
+    float:right;
+}
+
+canvas{
+    border: 10px solid white;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration :4s ;
+    margin-top : 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow:5px 5px 38px darkblue}
+    to {box-shadow:5px 5px 38px red}
+}
+
